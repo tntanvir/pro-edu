@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --com-Color: #289bde;
+    --off-Color: #8a8a8a;
+}
+
+.btn {
+    background-color: var(--com-Color);
+    padding: 0.3rem 1.7rem;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+#p-div {
+    padding-inline: 6rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    /* background-color: #289bde; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: var(--off-Color);
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    /* height: calc(100%-100000); */
+    height: 87vh;
+    gap: 5rem;
+}
+
+#left {
+
+    width: 50%;
+
+
+}
+
+#left .btn {
+    margin-top: 2rem;
+}
+
+#left h1 {
+    font-size: 3rem;
+}
+
+p {
+    color: var(--off-Color);
+}
+
+#right {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#right img {}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    gap: 10px;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.box-dis {
+    background-color: #3b7905;
+    width: 31.6rem;
+    margin: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
